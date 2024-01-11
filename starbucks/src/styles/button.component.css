@@ -1,0 +1,38 @@
+.button {
+  font-family: 'SODO Sans';
+  outline: none;
+
+  padding: 7px 16px;
+  border-radius: 30px;
+
+  min-height: 2em;
+  min-width: 4.5em;
+  font-size: 14px;
+  text-wrap: nowrap;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.ghost-btn {
+  color: rgb(var(--black));
+  background: transparent;
+  font-weight: 600;
+  border: 1.5px solid rgb(var(--black));
+}
+
+.ghost-btn:hover {
+  background: rgba(var(--black), 0.1);
+  transition-duration: 0.2s;
+}
+
+.solid-btn {
+  font-weight: 600;
+  color: rgb(var(--neutral));
+  background: rgb(var(--black));
+  border: 1.5px solid rgb(var(--black));
+}
+
+.solid-btn:hover {
+  background: rgba(var(--black), 0.7);
+  border-color: rgba(var(--black), 0.7);
+}
